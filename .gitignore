@@ -1,0 +1,14 @@
+# Local .terraform directories (plugins and modules)
+.terraform/
+
+# Terraform state files and backups
+*.tfstate
+*.tfstate.*
+crash.log
+# Exclude personal or sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore local CLI configurations
+.terraformrc
+terraform.rc
